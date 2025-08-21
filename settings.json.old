@@ -1,0 +1,144 @@
+{
+  // GENERAL SETTINGS -----
+  "agent": {
+    "always_allow_tool_actions": true,
+    "model_parameters": [],
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4"
+    },
+    "version": "2"
+  },
+  "cursor_blink": true,
+  "confirm_quit": true,
+  "nightly": {
+    "enabled": true,
+    "channel": "stable"
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
+  },
+  "centered_layout": {
+    "left_padding": 0.15,
+    "right_padding": 0.15
+  },
+
+  //AUTO INSTALL EXTENSIONS -----
+  "auto_install_extensions": {
+    "catppuccin-blur-plus": true,
+    "catppuccin-icons": true,
+    "discord-presence": true,
+    "git-firefly": true,
+    "html": true,
+    "live-server": true,
+    "php": true,
+    "env": true,
+    "golangci-lint": true,
+    "latex": true,
+    "make": true,
+    "sql": true
+  },
+
+  // THEME SETTINGS -----
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Colorizer Pro"
+  },
+
+  "icon_theme": "Catppuccin Mocha",
+
+  // KEYMAPS -----
+  "base_keymap": "VSCode",
+
+  // FEATURE SETTINGS -----
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
+
+  // BUFFER FONT -----
+  "buffer_font_family": "JetBrains Mono",
+  "buffer_line_height": "standard",
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "buffer_font_features": {
+    "calt": true,
+    "liga": true
+  },
+
+  // UI FONT -----
+  "ui_font_family": "JetBrains Mono",
+
+  // BOTTOM DECK LAYOUT -----
+  "bottom_dock_layout": "full",
+
+  // AUTOSAVE SETTINGS -----
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+
+  // EDITOR TABS -----
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+    "activate_on_close": "history",
+    "show_close_button": "always"
+  },
+
+  // INDENT GUIDES -----
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 2,
+    "active_line_width": 4,
+    "coloring": "indent_aware",
+    "background_coloring": "disabled"
+  },
+
+  //INLAY HINTS -----
+  "inlay_hints": {
+    "enabled": true,
+    "typeHints": true,
+    "show_background": true,
+    "parameterHints": true,
+    "chainingHints": true
+  },
+
+  // TERMINAL SETTINGS -----
+  "terminal": {
+    "font_family": "Hack",
+    "font_size": 14,
+    "line_height": "standard",
+    "option_as_meta": false,
+    "button": true,
+    "shell": "system",
+    "toolbar": {
+      "breadcrumbs": true
+    },
+    "working_directory": "current_project_directory",
+    "scrollbar": {
+      "show": null
+    }
+  },
+
+  // GIT SETTINGS -----
+  "git": {
+    "enabled": true,
+    "autoFetch": true,
+    "autoFetchInterval": 300,
+    "autoFetchOnFocus": true,
+    "autoFetchOnWindowChange": true,
+    "autoFetchOnBuild": true,
+    "git_status": true,
+    "autoFetchOnBuildEvents": ["build", "run", "debug"],
+    "autoFetchOnBuildEventsDelay": 1500,
+    "autoFetchOnBuildDelay": 1500,
+    "git_gutter": "tracked_files"
+  },
+
+  "git_panel": {
+    "dock": "right"
+  }
+}
