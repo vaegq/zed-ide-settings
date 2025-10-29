@@ -1,0 +1,143 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+    "scroll_sensitivity": 2.0,
+    "inline_code_actions": true,
+    "tab_bar": {
+        "show_nav_history_buttons": false
+    },
+    "soft_wrap": "editor_width",
+    "auto_install_extensions": {
+        "csharp": true,
+        "emmet": true,
+        "html": true,
+        "html-snippets": true,
+        "ini": true,
+        "javascript-snippets": true,
+        "jetbrains-icons": true,
+        "latex": true,
+        "make": true,
+        "neocmake": true,
+        "nvim-nightfox": true,
+        "php": true,
+        "php-snippets": true,
+        "xml": true
+    },
+    "agent": {
+        "default_model": {
+            "provider": "copilot_chat",
+            "model": "gpt-5-mini"
+        },
+        "use_modifier_to_send": true,
+        "play_sound_when_agent_done": true,
+        "model_parameters": []
+    },
+    "audio": {
+        "experimental.rodio_audio": true,
+        "experimental.auto_microphone_volume": true
+    },
+    "calls": {
+        "mute_on_join": true
+    },
+    "git": {
+        "inline_blame": {
+            "show_commit_summary": true
+        }
+    },
+    "terminal": {
+        "toolbar": {
+            "breadcrumbs": true
+        }
+    },
+    "git_panel": {
+        "sort_by_path": false,
+        "status_style": "icon",
+        "dock": "right"
+    },
+    "outline_panel": {
+        "indent_size": 20.0
+    },
+    "project_panel": {
+        "hide_root": false,
+        "scrollbar": {
+            "show": "auto"
+        },
+        "indent_size": 20.0,
+        "entry_spacing": "comfortable",
+        "default_width": 200.0
+    },
+    "bottom_dock_layout": "full",
+    "preview_tabs": {
+        "enable_preview_from_file_finder": false
+    },
+    "tabs": {
+        "show_diagnostics": "all",
+        "file_icons": true,
+        "git_status": true
+    },
+    "title_bar": {
+        "show_menus": true,
+        "show_branch_icon": true
+    },
+    "diagnostics": {
+        "lsp_pull_diagnostics": {
+            "debounce_ms": 150
+        },
+        "inline": {
+            "enabled": true
+        }
+    },
+    "prettier": {
+        "allowed": true
+    },
+    "lsp_document_colors": "border",
+    "inlay_hints": {
+        "scroll_debounce_ms": 250,
+        "edit_debounce_ms": 600,
+        "show_background": true,
+        "enabled": true
+    },
+    "always_treat_brackets_as_autoclosed": false,
+    "indent_guides": {
+        "background_coloring": "indent_aware",
+        "line_width": 3,
+        "active_line_width": 6,
+        "coloring": "indent_aware"
+    },
+    "tab_size": 4,
+    "toolbar": {
+        "quick_actions": false,
+        "breadcrumbs": false,
+        "code_actions": true
+    },
+    "minimap": {
+        "thumb_border": "left_open",
+        "thumb": "always",
+        "show": "always"
+    },
+    "show_signature_help_after_edits": true,
+    "auto_signature_help": true,
+    "agent_buffer_font_size": 12.0,
+    "agent_ui_font_size": 16.0,
+    "ui_font_family": "JetBrains Mono",
+    "buffer_font_family": "JetBrains Mono",
+    "confirm_quit": true,
+    "features": {
+        "edit_prediction_provider": "copilot"
+    },
+    "base_keymap": "VSCode",
+    "icon_theme": "JetBrains Icons Dark",
+    "ui_font_size": 16.0,
+    "buffer_font_size": 14.0,
+    "theme": {
+        "mode": "dark",
+        "light": "One Light",
+        "dark": "Carbonfox - blurred"
+    }
+}
